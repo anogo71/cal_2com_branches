@@ -3,10 +3,13 @@
 <script type="text/javascript">
 
 function square() {
-	
   var num = document.getElementById("n1");
+<<<<<<< HEAD
+  num.value = Math.pow(num.value * num.value);
+=======
   num.value = (num.value * num.value);
   
+>>>>>>> square button
 }
 
 function cube() {
@@ -19,7 +22,11 @@ function cube() {
 <body>
   Number:
   <input type="text" id="n1"><p>
+<<<<<<< HEAD
 	<button onclick="square()"> x<sup>2</sup> </button>	
+=======
+	<button onclick="square()"> x<sup>2</sup> </button>
+>>>>>>> square button
   <button onclick="cube()"> x<sup>3</sup> </button>
 </body>
 </html>
